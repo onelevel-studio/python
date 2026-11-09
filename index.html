@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scripts Python Téléchargeables</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Téléchargement de scripts Python</h1>
+    <input type="text" id="search" placeholder="Rechercher un script..." onkeyup="filterScripts()" />
+  </header>
+  <main class="grid" id="scriptsContainer">
+    <div class="card">
+      <h2>Interface graphique</h2>
+      <p>Interface graphique Tkinter de base à modifier.</p>
+      <div class="buttons">
+        <a href="./scripts/interface.py" download>⬇ .py</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Calculatrice</h2>
+      <p>Calculatrice avec interface graphique Tkinter.</p>
+      <div class="buttons">
+        <a href="./scripts/calculatrice.py" download>⬇ .py</a>
+        <a href="./scripts/calculatrice.exe" download class="exe">⬇ .exe</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Pendu</h2>
+      <p>Jeu de pendu.</p>
+      <div class="buttons">
+        <a href="./scripts/pendu.py" download>⬇ .py</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Palaindrome</h2>
+      <p>Détécteure de palaindromes.</p>
+      <div class="buttons">
+        <a href="./scripts/palaindrome.py" download>⬇ .py</a>
+      </div>
+    </div>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
